@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: auto;
+}
+h1{
+    text-align: center;
+    padding-bottom: 3vh;
+}
+header{
+    padding-top: 2vh;
+}
+hr{
+    width: 85vw;
+}
+footer{
+    text-align: center;
+    padding-top: 2vh;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
