@@ -22,3 +22,11 @@ footer{
     margin: 0;
     padding: 0;
 }
+.Paiement{
+    text-align: center;
+}
+.Grossi{
+    padding-left: 2vh;
+    height: 5vh;
+    width: auto;
+}
