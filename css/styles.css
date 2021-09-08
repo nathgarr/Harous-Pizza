@@ -21,9 +21,12 @@ footer{
 }
 .navbar{
     border-radius: 2vh;
+    margin-top: 5vh;
 }
 .ggm{
     border-radius: 2vh;
+    height: 50vh;
+    width: 50vh;
 }
 .row{
     margin: 0;
@@ -36,4 +39,14 @@ footer{
     padding-left: 2vh;
     height: 5vh;
     width: auto;
+}
+#HR{
+    height: 15vh;
+    width: auto;
+}
+@media(max-width:768px){
+    .ggm{
+        height: 40vh;
+        width: 40vh;  
+    }
 }
