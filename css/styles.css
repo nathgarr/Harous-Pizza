@@ -45,7 +45,6 @@ footer{
     margin: 0px auto;
 }
 .Grossi{
-    padding-left: 2vh;
     height: 5vh;
     width: auto;
 }
@@ -55,10 +54,12 @@ footer{
 }
 .contact{
     font-size: 22px;
+    padding-bottom: 10px;
 }
 .decale{
     text-align: center;
     margin: 0px;
+    padding-left: 20vh;
     text-align: justify;
 }
 /*---------------------------------------------------------------------------------- modal modif------------------------------------------ */
@@ -151,7 +152,6 @@ button:hover span:nth-child(4){
 .H1{
     margin: 0px auto;
 }
-
 /*----------------------------------------------------------- id------------------------------------------------------- */
 #HR{
     height: 15vh;
@@ -175,6 +175,7 @@ button:hover span:nth-child(4){
     }
     .decale{
         margin-bottom: 10px;
+        padding-left: 5vh;
     }
     .contact{
         font-size: 16px;
