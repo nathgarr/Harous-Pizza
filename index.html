@@ -29,10 +29,10 @@
                               <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Images</a>
+                              <a class="nav-link" href="#">Galerie</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Menus</a>
+                              <a class="nav-link" href="#">Menu</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">Nous Contacter</a>
@@ -53,7 +53,7 @@
         <div class="d-flex justify-content-center">
            <hr> 
         </div>
-        <div class="col-10">
+        <div class="col-10 H1">
             <h1>
                 Harous Pizza
             </h1>
@@ -68,26 +68,29 @@
         </div>
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-10 col-md-5 ggmp">
-                <iframe class="ggm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.510684013353!2d5.187643515837194!3d46.200295092044634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f3517313c668ab%3A0x2aa23934395e81d8!2s120%20Rue%20du%20Village%2C%2001000%20Saint-Denis-l%C3%A8s-Bourg!5e0!3m2!1sfr!2sfr!4v1631101759214!5m2!1sfr!2sfr"  style="border:0;" allowfullscreen="" loading="lazy">
+                <iframe class="ggm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.510684013353!2d5.187643515837194!3d46.200295092044634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f3517313c668ab%3A0x2aa23934395e81d8!2s120%20Rue%20du%20Village%2C%2001000%20Saint-Denis-l%C3%A8s-Bourg!5e0!3m2!1sfr!2sfr!4v1631101759214!5m2!1sfr!2sfr"style="border:0;" allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
             <div class="col-10 col-md-5">
-                <h2>
+                <h2 class="decale">
                     Nous contacter
                 </h2>
-                <p>
+                <p class="decale contact">
                   120 rue du Village st denis les bourgs
+                  <br>
                   <br>
                   Téléphone XXXXXXXXXX
                   <br>
+                  <br>
                   Harous@outlook.fr
+                  <br>
                   <br>
                   Ouvert du lundis au vendredis de 11h à 14h et de 18h à 22h
                 </p>
                 <h2 class="Paiement">
                     Moyen de paiement acceptés
                 </h2>
-                <div class=" d-flex justify-content-center align-items-center">
+                <div class=" d-flex  align-items-center justify-content-around">
                  <img class="Grossi" src="./img/credit-card.svg" alt="">
                  <img class="Grossi" src="./img/currency-euro.svg" alt="">
                  <img class="Grossi" src="./img/cash.svg" alt="">   
@@ -98,12 +101,14 @@
             <h2>
              Suivez nous sur les Réseaux Sociaux
             </h2>
+            <div class="col-7 col-md-3 d-flex justify-content-between réseaux">
               <img class="Grossi" src="./img/facebook.svg" alt="">
               <img class="Grossi" src="./img/instagram.svg" alt="">
               <img class="Grossi" src="./img/twitter.svg" alt="">
+            </div>
             <br>
             <br>
-            <!-- Button trigger modal -->
+<!-------------------------------------Button trigger modal -------------------------------------------------------------------->
             <button type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               <span></span>
               <span></span>
@@ -111,56 +116,80 @@
               <span></span>
              Mentions Légales
             </button>
-            <!-- Modal -->
+<!-------------------------------------------- Modal ------------------------------------------------------------------------------------->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h2 class="modal-title" id="staticBackdropLabel">Mention Légale</h2>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h2 class="modal-title title-m" id="staticBackdropLabel">Mention Légale</h2>
+                    <button type="button" class="btn-close btxclose" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <h2> Conditions d'utilisation</h2> 
+                    <h2> 
+                      Conditions d'utilisation
+                    </h2> 
                     <p>
                       Le site accessible par les url suivants : www.[...........].fr est exploité dans le respect de la législation française.       L'utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront êtres modifiées à tout moment et sans préavis par la société[.....]. Elle ne saurait être tenu pour responsable en aucune manière d’une mauvaise utilisation du service.
                     </p>
-                    <h2>Responsable éditorial</h2>
-                    <h2>Limitation de responsabilité</h2>
+                    <h2>
+                      Responsable éditorial
+                    </h2>
+                    <h2>
+                      Limitation de responsabilité
+                    </h2>
                     <p>
                       Les informations contenues sur ce site sont aussi précises que possibles et le site est régulièrement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email en décrivant le problème de la manière la plus précise possible (page posant problème, action déclenchante, type d’ordinateur et de navigateur utilisé, …).<br><br>
                       Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule responsabilité. En conséquence, [.....] ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur ou d'une quelconque perte de données consécutives au téléchargement.<br><br>
                       Les photos sont non contractuelles.<br><br>
                       Les liens hypertextes mis en place dans le cadre du présent site internet en direction d'autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de [.....].
                     </p>
-                    <h2>Litiges</h2>
+                    <h2>
+                      Litiges
+                    </h2>
                     <p>
                       Les présentes conditions sont régies par les lois françaises et toute contestation ou litiges qui pourraient naître de l'interprétation ou de l'exécution de celles-ci seront de la compétence exclusive des tribunaux dont dépend le siège social de la société [.......]. La langue de référence, pour le règlement de contentieux éventuels, est le français.
                     </p>
-                    <h2>Déclaration à la CNIL</h2>
+                    <h2>
+                      Déclaration à la CNIL
+                    </h2>
                     <p>
                       Conformément à la loi 78-17 du 6 janvier 1978 (modifiée par la loi 2004-801 du 6 août 2004 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel) relative à l'informatique, aux fichiers et aux libertés, le site a fait l'objet d'une déclaration auprès de la Commission nationale de l'informatique et des libertés (www.cnil.fr). 
                     </p>
-                    <h2>Droit d'accès</h2>
+                    <h2>
+                      Droit d'accès
+                    </h2>
                     <p>
                       En application de cette loi, les internautes disposent d’un droit d’accès, de rectification, de modification et de suppression concernant les données qui les concernent personnellement. Ce droit peut être exercé par voie postale auprès de Natural net 49, Boulevard Antoine Gautier 33000 Bordeaux ou par voie électronique à l’adresse email suivante : [..........]
                       Les informations personnelles collectées ne sont en aucun cas confiées à des tiers hormis pour l’éventuelle bonne exécution de la prestation commandée par l’internaute.
                     </p>
-                    <h2>Confidentialité</h2>
+                    <h2>
+                      Confidentialité
+                    </h2>
                     <p>
                       Vos données personnelles sont confidentielles et ne seront en aucun cas communiquées à des tiers hormis pour la bonne exécution de la prestation.
                     </p>
-                    <h2>Propriété intellectuelle</h2>
+                    <h2>
+                      Propriété intellectuelle
+                    </h2>
                     <p>
                       Tout le contenu du présent site, incluant, de façon non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, gifs et icônes ainsi que leur mise en forme sont la propriété exclusive de la société Natural net à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.
                       Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord exprès par écrit de Natural net. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle. Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur. En outre, les propriétaires des Contenus copiés pourraient intenter une action en justice à votre encontre.<br><br>
                     </p>
-                    <h2>Conditions de service</h2>
+                    <h2>
+                      Conditions de service
+                  </h2>
                     <p>
-                      Ce site est proposé en langages HTML5 et CSS3, pour un meilleur confort d'utilisation et un graphisme plus agréable, nous vous recommandons de recourir à des navigateurs modernes comme Safari, Firefox, Chrome,...<br></p>
-                    <h3>Informations et exclusion</h3>
-                    <p>  Natural net met en œuvre tous les moyens dont elle dispose, pour assurer une information fiable et une mise à jour fiable de ses sites internet. Toutefois, des erreurs ou omissions peuvent survenir. L'internaute devra donc s'assurer de l'exactitude des informations auprès de Natural net, et signaler toutes modifications du site qu'il jugerait utile. Natural net n'est en aucun cas responsable de l'utilisation faite de ces informations, et de tout préjudice direct ou indirect pouvant en découler.
+                      Ce site est proposé en langages HTML5 et CSS3, pour un meilleur confort d'utilisation et un graphisme plus agréable, nous vous recommandons de recourir à des navigateurs modernes comme Safari, Firefox, Chrome,...<br>
                     </p>
-                    <h2>Liens hypertextes</h2>
+                    <h2>
+                      Informations et exclusion
+                    </h2>
+                    <p> 
+                      Natural net met en œuvre tous les moyens dont elle dispose, pour assurer une information fiable et une mise à jour fiable de ses sites internet. Toutefois, des erreurs ou omissions peuvent survenir. L'internaute devra donc s'assurer de l'exactitude des informations auprès de Natural net, et signaler toutes modifications du site qu'il jugerait utile. Natural net n'est en aucun cas responsable de l'utilisation faite de ces informations, et de tout préjudice direct ou indirect pouvant en découler.
+                    </p>
+                    <h2>
+                      Liens hypertextes
+                    </h2>
                     <p>
                       Le site internet  peuve offrir des liens vers d’autres sites internet ou d’autres ressources disponibles sur Internet.
                       Il ne dispose d'aucun moyen pour contrôler les sites en connexion avec ses sites internet. Il ne répond pas de la disponibilité de tels sites et sources externes, ni ne la garantit. Elle ne peut être tenue pour responsable de tout dommage, de quelque nature que ce soit, résultant du contenu de ces sites ou sources externes, et notamment des informations, produits ou services qu’ils proposent, ou de tout usage qui peut être fait de ces éléments. Les risques liés à cette utilisation incombent pleinement à l'internaute, qui doit se conformer à leurs conditions d'utilisation.<br>
@@ -168,7 +197,7 @@
                       Dans l'hypothèse où un utilisateur ou visiteur souhaiterait mettre en place un hyperlien en direction d’un des sites internet de [......], il lui appartiendra d'adresser un email accessible sur le site afin de formuler sa demande de mise en place d'un hyperlien. [.....] se réserve le droit d’accepter ou de refuser un hyperlien sans avoir à en justifier sa décision.
                     </p>
                   </div>
-                  <div class="modal-footer">
+                  <div class="modal-footer d-flex justify-content-center">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                   </div>
                 </div>

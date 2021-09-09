@@ -1,4 +1,4 @@
-/* balise général */
+/* ------------------------------------------------------balise général----------------------------------------------------- */
 body{
     margin: 0;
     padding: 0;
@@ -8,19 +8,21 @@ body{
 }
 h1{
     text-align: center;
-    padding-bottom: 3vh;
+    margin: 0px;
+    padding-bottom: 10px;
 }
 header{
     padding-top: 2vh;
 }
 hr{
     width: 85vw;
+    height: 5px;
 }
 footer{
     text-align: center;
     padding-top: 2vh;
 }
-/* class */
+/*-------------------------------------------------- class --------------------------------------------------*/
 .navbar{
     border-radius: 2vh;
     margin-top: 5vh;
@@ -35,7 +37,12 @@ footer{
     padding: 0;
 }
 .Paiement{
+    margin: 0px;
+    margin-bottom: 10px;
     text-align: center;
+}
+.réseaux{
+    margin: 0px auto;
 }
 .Grossi{
     padding-left: 2vh;
@@ -46,12 +53,28 @@ footer{
     padding: 0%;
     margin: 0%;
 }
-/* modal modif */
+.contact{
+    font-size: 22px;
+}
+.decale{
+    text-align: center;
+    margin: 0px;
+    text-align: justify;
+}
+/*---------------------------------------------------------------------------------- modal modif------------------------------------------ */
+.title-m{
+    text-align: center;
+}
+.btxclose{
+    margin: 0px !important;
+    font-size: 18px !important;
+}
 button{
     border: none;
     position: relative;
     display: inline-block;
     padding: 10px 15px;
+    margin-bottom: 15px;
     /* color: red; */
     background-color: aquamarine;
     text-transform: uppercase;
@@ -119,18 +142,42 @@ button:hover span:nth-child(4){
     transition-delay: 0.75s;
 }
 .modal-title{
-    text-align: center;
+    padding-left: 145px;
+    font-size: 22px;
 }
-/* id */
+.modal p{
+    text-align: justify;
+}
+.H1{
+    margin: 0px auto;
+}
+
+/*----------------------------------------------------------- id------------------------------------------------------- */
 #HR{
     height: 15vh;
     width: auto;
 }
-/* media querry */
+/*--------------------------------------------------------------- media querry---------------------------------- */
 @media(max-width:768px){
     button{
         font-size: 13px;
         padding: 5px 5px;
+    }
+    .modal-body h2{
+        font-size: 16px;
+    }
+    .modal-title{
+        padding-left: 50px;
+        font-size: 20px;
+    }
+    .modal-body p{
+        font-size: 12px;
+    }
+    .decale{
+        margin-bottom: 10px;
+    }
+    .contact{
+        font-size: 16px;
     }
     h2{
      font-size: 3vh;
