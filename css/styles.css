@@ -1,3 +1,4 @@
+/* balise général */
 body{
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ footer{
     text-align: center;
     padding-top: 2vh;
 }
+/* class */
 .navbar{
     border-radius: 2vh;
     margin-top: 5vh;
@@ -41,13 +43,97 @@ footer{
     height: 5vh;
     width: auto;
 }
+/* modal modif */
+button{
+    border: none;
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    /* color: red; */
+    background-color: aquamarine;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+button:hover{
+    color: purple;
+    background: #124b7a;
+    box-shadow: 0 0 10px #124b7a, 0 0 40px #124b7a, 0 0 80px #124b7a;
+    transition-delay: 1s;
+}
+button span{
+    position: absolute;
+    display: block;
+}
+button span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#124b7a);
+}
+button:hover span:nth-child(1){
+    left:100%;
+    transition: 1s;
+}
+button span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#124b7a);
+}
+button:hover span:nth-child(3){
+    right:100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+button span:nth-child(2){
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#124b7a);
+}
+button:hover span:nth-child(2){
+    top:100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+button span:nth-child(4){
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#124b7a);
+}
+button:hover span:nth-child(4){
+    bottom:100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.modal-title{
+    text-align: center;
+}
+/* id */
 #HR{
     height: 15vh;
     width: auto;
 }
+/* media querry */
 @media(max-width:768px){
     .ggm{
         height: 40vh;
         width: 40vh;  
+    }
+    button{
+        background-color: bisque;
+        font-size: 18px;
+    }
+    h2{
+     font-size: 3vh;
     }
 }
