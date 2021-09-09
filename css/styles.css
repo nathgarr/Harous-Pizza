@@ -6,7 +6,6 @@ body{
     width: auto;
     background-color: aquamarine;
 }
-
 h1{
     text-align: center;
     padding-bottom: 3vh;
@@ -28,8 +27,8 @@ footer{
 }
 .ggm{
     border-radius: 2vh;
-    height: 50vh;
-    width: 50vh;
+    height: 45vh;
+    width: 100%;
 }
 .row{
     margin: 0;
@@ -42,6 +41,10 @@ footer{
     padding-left: 2vh;
     height: 5vh;
     width: auto;
+}
+.ggmp{
+    padding: 0%;
+    margin: 0%;
 }
 /* modal modif */
 button{
@@ -125,13 +128,9 @@ button:hover span:nth-child(4){
 }
 /* media querry */
 @media(max-width:768px){
-    .ggm{
-        height: 40vh;
-        width: 40vh;  
-    }
     button{
-        background-color: bisque;
-        font-size: 18px;
+        font-size: 13px;
+        padding: 5px 5px;
     }
     h2{
      font-size: 3vh;
