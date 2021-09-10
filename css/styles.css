@@ -6,6 +6,9 @@ body{
     width: auto;
     background-color: aquamarine;
 }
+p{
+    font-size: 20px;
+}
 h1{
     text-align: center;
     margin: 0px;
@@ -78,7 +81,7 @@ footer{
 }
 .Slogan{
     font-size: 25px;
-    padding-right: 20%;
+    padding-right: 18%;
 }
 .decription{
     padding-left: 15%;
@@ -221,5 +224,8 @@ button:hover span:nth-child(4){
     }
     #pizza{
         padding-left: 15%;
+    }
+    p{
+        font-size: 15px;
     }
 }
