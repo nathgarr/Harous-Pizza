@@ -44,13 +44,17 @@ footer{
 .réseaux{
     margin: 0px auto;
 }
-.Grossi{
+.icon{
     height: 5vh;
     width: auto;
 }
 .ggmp{
     padding: 0%;
     margin: 0%;
+}
+.move{
+    padding-left: 25%;
+    text-align: justify;
 }
 .contact{
     font-size: 22px;
@@ -59,8 +63,18 @@ footer{
 .decale{
     text-align: center;
     margin: 0px;
-    padding-left: 20vh;
+    padding-left: 12vh;
     text-align: justify;
+}
+.carousel-item img{
+    height: 60vh;
+    width: auto;
+}
+.txtx{
+    text-align: justify;
+}
+.prix{
+    text-align: center;
 }
 /*---------------------------------------------------------------------------------- modal modif------------------------------------------ */
 .title-m{
