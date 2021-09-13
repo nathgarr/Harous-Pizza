@@ -2993,14 +2993,14 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: black;
+  background-color: rgb(29, 99, 86);
+  border-color: rgb(29, 99, 86);
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5c636a;
-  border-color: #565e64;
+  background-color: rgb(29, 99, 86);
+  border-color:rgb(29, 99, 86);
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #fff;
@@ -4172,8 +4172,8 @@ textarea.form-control-lg {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 2vh;
+    padding-right: 2.5rem;
+    padding-left: 5vh;
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
@@ -5489,12 +5489,12 @@ textarea.form-control-lg {
 }
 
 .modal-header {
+  background-color: rgb(72, 163, 140);
   display: flex;
   flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
@@ -5509,19 +5509,20 @@ textarea.form-control-lg {
 }
 
 .modal-body {
+  background-color: rgb(72, 163, 140);
   position: relative;
   flex: 1 1 auto;
   padding: 1rem;
 }
 
 .modal-footer {
+  background-color: rgb(72, 163, 140);
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 0;
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #dee2e6;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
 }
@@ -5946,7 +5947,7 @@ textarea.form-control-lg {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: transform 1.6s ;
+  transition: transform 0.6s ;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -7755,7 +7756,7 @@ textarea.form-control-lg {
 
 .bg-info {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgb(29, 99, 86);
 }
 
 .bg-warning {
