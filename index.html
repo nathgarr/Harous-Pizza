@@ -104,15 +104,37 @@
             Redécouvrez le savoir faire, ainsi que la nouvelle pizza du chef !
           </p>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <div class="col-10 move">
-          <h2 class="livreure">
-            Info supplémentaires
-          </h2>
-          <p class="livraison">
-            Livraison rapide en 10 min garantie. <br> En cas de non respect, vous  recevrez des bons de réduction valables deux semaines. 
-          </p>
-          <div class="col-10 d-flex justify-content-center">
+            <h2>
+              Moyen de consomation
+            </h2>
+          </div>
+            <div class="col-10 col-md-3 ">
+              <h3>
+                Livraison
+              </h3>
+              <p>
+                Livraison rapide en 10 min garantie. <br> En cas de non respect, vous  recevrez des bons de réduction valables deux semaines. 
+              </p>
+            </div>
+            <div class="col-10 col-md-3">
+              <h3>
+                A emporter
+              </h3>
+              <p>
+                Vous pouver commander des pizza a emporter le mardi et le jeudi
+              </p>
+            </div>
+            <div class="col-10 col-md-3">
+              <h3>
+                Sur place
+              </h3>
+              <p>
+                Actuellement nous somme en préparation vous ne pouver pas encore manger sur place
+              </p>
+            </div>
+          <div class="col-7 d-flex justify-content-center">
             <div id="carouselExampleIndicators-2" class="carousel slide w-100" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 2"></button>
@@ -170,23 +192,33 @@
             <h2  class="centrage">
               Menu
             </h2>
-            <p class="Menux">
-              Pizza au choix <br>
-            </p>
-            <p class="Menux">
-              Boisson au choix : Coca-cola, orangina, fanta, pulco, eau minérale.<br>
-            </p>
           </div>
         </div>
           <!---------------------------------------------------------------- Offcanvas------------------------------------------------------- -->
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Dessert au choix 5€</button>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">Boisson 2€</button>
 
-          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
             <div class="offcanvas-header">
-              <h3 class="offcanvas-title" id="offcanvasBottomLabel">Dessert</h3>
+              <h3 class="offcanvas-title" id="offcanvasLeftLabel">Boisson</h3>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body small d-flex justify-content-center">
+            <div class="offcanvas-body  d-flex flex-column align-items-center ">
+              <img src="./img/lemon-91537_640.jpg" alt="">
+              <img src="./img/bottle-2582012_640.jpg" alt="">
+              <img src="./img/cans-4163012_640.jpg" alt="">
+              <p>
+                Coca-cola, orangina, fanta, pulco, eau minérale
+              </p>  
+            </div>
+          </div>
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Dessert au choix 5€</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h3 class="offcanvas-title" id="offcanvasRightLabel">Dessert</h3>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body  d-flex flex-column align-items-center">
               <img src="./img/food-3338312_640.jpg" alt="">
               <img src="./img/dessert-707001_640.jpg" alt="">
               <img src="./img/pancakes-5257127_640.jpg" alt="">
@@ -196,8 +228,9 @@
               </p>  
             </div>
           </div>
+        </div>
     <!----------------------------------------------------------- accordion ------------------------------------------------------>
-              <div class="section">
+              <div class="section  ">
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -300,16 +333,20 @@
                 <h2 class="decale">
                     Nous contacter
                 </h2>
+                <br><br>
                 <p class="decale contact">
                   120 rue du Village St Denis lès Bourg
                   <br>
-                  <br>
                   Téléphone XXXXXXXXXX
                   <br>
-                  <br>
                   Harous@.....fr
-                  <br>
-                  <br>
+                </p>
+                <br><br>
+                <h3 class="decale contact">
+                  Horaires
+                </h3>
+                <br><br>
+                <p class="decale contact">
                   Ouvert du lundi au vendredi de 11h à 14h et de 18h à 22h
                 </p>
             </div>
@@ -318,24 +355,54 @@
            Moyens de paiement accepté
         </h2>
         <div class=" d-flex  align-items-center justify-content-evenly">
-          <img class="icon" src="./img/credit-card.svg" alt="">
-          <img class="icon" src="./img/currency-euro.svg" alt="">
-          <img class="icon" src="./img/cash.svg" alt="">   
+          <div>
+            <img class="icon" src="./img/credit-card.svg" alt="">
+            <p>
+              Carte de crédit
+            </p>
+          </div>
+          <div>
+            <img class="icon" src="./img/currency-euro.svg" alt="">
+            <p>
+              Espece
+            </p>
+          </div>
+          <div>
+            <img class="icon" src="./img/cash.svg" alt="">  
+            <p>
+              Chèque
+            </p>
+          </div>
          </div>
         <footer>
             <h2>
              Suivez-nous sur les Réseaux Sociaux
             </h2>
             <div class="col-7 col-md-3 d-flex justify-content-between réseaux">
-              <a href="https://fr-fr.facebook.com/" target="_blank">
-                <img class="icon" src="./img/facebook.svg" alt="">
-              </a>
-              <a href="https://www.instagram.com/accounts/emailsignup/" target="_blank">
-                <img class="icon" src="./img/instagram.svg" alt="">
-              </a>
-              <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZnIifQ%3D%3D%22%7D" target="_blank">
-                <img class="icon" src="./img/twitter.svg" alt="">
-              </a>
+              <div>
+                <a href="https://fr-fr.facebook.com/" target="_blank">
+                  <img class="icon" src="./img/facebook.svg" alt="">
+                </a>
+                <p>
+                  Facebook
+                </p>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/accounts/emailsignup/" target="_blank">
+                  <img class="icon" src="./img/instagram.svg" alt="">
+                </a>
+                <p>
+                  Instagram
+                </p>
+              </div>
+              <div>
+                <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZnIifQ%3D%3D%22%7D" target="_blank">
+                  <img class="icon" src="./img/twitter.svg" alt="">
+                </a>
+                <p>
+                  Twitter
+                </p>
+              </div>
             </div>
             <br>
             <br>

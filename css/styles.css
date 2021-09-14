@@ -127,6 +127,14 @@ footer{
 .Menux{
     text-align: center;
 }
+.button{
+    padding: 0px;
+}
+/*------------------------------------------------------------------------------ offcanvas----------------------------------- */
+.offcanvas-body img{
+    height: 20vh;
+    width: auto;
+}
 /*---------------------------------------------------------------- accordion -------------------------------------------------*/
 .accordion-body img{
     /* padding-left: 40vw; */
@@ -138,8 +146,11 @@ footer{
     width: 80%;
     padding-bottom: 25px;
 }
+.accordion-item{
+        margin-left: 65vh;
+}
 .accordion-header{
-    padding-left: 40%;
+    margin: auto;
 }
 .accordion-header p{
     padding-left: 5%;
@@ -151,7 +162,7 @@ button img{
 }
 #btnx{
     position: sticky;
-    top: 200px;
+    top: 450px;
     left: 1850px;
     width: 50px;
     height: 50px;
@@ -336,5 +347,21 @@ button:hover span:nth-child(4){
     }
     .section{
         padding-bottom: 40px;
+    }
+    .accordion-header{
+        padding: 0px;
+    }
+    .accordion h3{
+        font-size: 10px;
+    }
+    .accordion p{
+        font-size: 14px;
+    }
+    .accordion-item{
+        margin-left: 20vh;
+    }
+    .accordion img{
+        height: 10vh;
+        width: auto;
     }
 }
