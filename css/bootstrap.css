@@ -4659,7 +4659,7 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  width: 30%;
+  width: 100%;
   background-color: rgb(29, 99, 86);
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 4vh;
