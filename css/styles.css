@@ -10,6 +10,9 @@ body{
 p{
     font-size: 30px;
 }
+.section{
+    padding-bottom: 70px;
+}
 h1{
     text-align: center;
     margin: 0px;
@@ -108,6 +111,8 @@ footer{
 }
 .centrage{
     text-align: center;
+    margin-top: 0px;
+    padding: 0px;
 }
 .imga{
     padding-left: 300px;
@@ -115,6 +120,29 @@ footer{
 .peluche{
     text-decoration: none;
     color: brown;
+}
+.Menu{
+    text-align: center;
+}
+.Menux{
+    text-align: center;
+}
+/*---------------------------------------------------------------- accordion -------------------------------------------------*/
+.accordion-body img{
+    /* padding-left: 40vw; */
+    padding-bottom: 3vh;
+    height: 20vh;
+    width: auto;
+}
+.accordion-body p{
+    width: 80%;
+    padding-bottom: 25px;
+}
+.accordion-header{
+    padding-left: 40%;
+}
+.accordion-header p{
+    padding-left: 5%;
 }
 /*--------------------------------------------------------------------------------- button remonte------------------------------------ */
 button img{
@@ -130,9 +158,6 @@ button img{
     padding: 0px !important;
 }
 /*---------------------------------------------------------------------------------- modal modif------------------------------------------ */
-.title-m{
-    text-align: center;
-}
 .btxclose{
     margin: 0px !important;
     font-size: 18px !important;
@@ -210,7 +235,8 @@ button:hover span:nth-child(4){
     transition-delay: 0.75s;
 }
 .modal-title{
-    padding-left: 145px;
+    text-align: center;
+    padding-left: 35vw;
     font-size: 22px;
 }
 .modal p{
@@ -282,12 +308,12 @@ button:hover span:nth-child(4){
         margin: 0px;
     }
     #btnx{
-        left: 290px;
-        height: 25px;
+        left: 300px;
+        height: 23px;
         width: auto;
     }
     button img{
-        height: 25px;
+        height: 23px;
         width: auto;
     }
     .livraison{
@@ -307,5 +333,8 @@ button:hover span:nth-child(4){
     }
     .imgh{
         padding-left: 30px;
+    }
+    .section{
+        padding-bottom: 40px;
     }
 }

@@ -2963,9 +2963,9 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  color: black;
+  background-color: rgb(29, 99, 86);
+  border-color: rgb(29, 99, 86);
 }
 .btn-primary:hover {
   color: #fff;
@@ -4602,15 +4602,15 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 35%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
+  color: black;
+  background-color: rgb(29, 99, 86);
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
+  border-radius: 2vh;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4619,8 +4619,9 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #0c63e4;
-  background-color: #e7f1ff;
+  color: black;
+  background-color: rgb(29, 99, 86);
+  border-radius: 2vh;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
@@ -4648,9 +4649,9 @@ textarea.form-control-lg {
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #86b7fe;
+  border-color: rgb(29, 99, 86);
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(29, 96, 86, 0.25);
 }
 
 .accordion-header {
@@ -4658,8 +4659,9 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  background-color: #fff;
+  background-color: rgb(29, 99, 86);
   border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 2vh;
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
@@ -4686,6 +4688,10 @@ textarea.form-control-lg {
 }
 
 .accordion-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 1rem 1.25rem;
 }
 
@@ -5532,7 +5538,7 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 80vw;
     margin: 1.75rem auto;
   }
 
@@ -6204,11 +6210,11 @@ textarea.form-control-lg {
   bottom: 0;
   z-index: 1045;
   display: flex;
-  flex-direction: column;
+   /* flex-direction: column;  */
   max-width: 100%;
   visibility: hidden;
-  background-color: #fff;
-  background-clip: padding-box;
+  background-color: rgb(29, 99, 86);
+  /* background-clip: padding-box; */
   outline: 0;
   transition: transform 0.3s ease-in-out;
 }
@@ -6222,10 +6228,11 @@ textarea.form-control-lg {
   position: fixed;
   top: 0;
   left: 0;
+  background-color: rgb(29, 99, 86);
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: rgb(29, 99, 86);
 }
 .offcanvas-backdrop.fade {
   opacity: 0;
@@ -6248,11 +6255,14 @@ textarea.form-control-lg {
 }
 
 .offcanvas-title {
+  background-color: rgb(29, 99, 86);
+  text-align: center;
   margin-bottom: 0;
   line-height: 1.5;
 }
 
 .offcanvas-body {
+  background-color: rgb(29, 99, 86);
   flex-grow: 1;
   padding: 1rem 1rem;
   overflow-y: auto;
@@ -6281,6 +6291,7 @@ textarea.form-control-lg {
   height: 30vh;
   max-height: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgb(29, 99, 86);
   transform: translateY(-100%);
 }
 
@@ -6289,6 +6300,7 @@ textarea.form-control-lg {
   left: 0;
   height: 30vh;
   max-height: 100%;
+  background-color: rgb(29, 99, 86);
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   transform: translateY(100%);
 }
