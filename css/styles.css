@@ -141,6 +141,12 @@ footer{
 .offcanvas-body p{
     font-size: 20px;
 }
+.imgoff{
+    padding-bottom: 20px;
+}
+.offc{
+    margin-right: 2vw;
+}
 /*---------------------------------------------------------------- accordion -------------------------------------------------*/
 .accordion-body img{
     /* padding-left: 40vw; */
@@ -159,6 +165,15 @@ footer{
 .accordion-header{
     margin: auto;
 }
+.accordion-button{
+    margin: 0px auto;
+    padding: 0px;
+    letter-spacing: 0px;
+}
+.accordion-button h3{
+    margin: 0px;
+    text-transform: none !important;
+}
 /*--------------------------------------------------------------------------------- button remonte------------------------------------ */
 button img{
     height: 50px;
@@ -172,6 +187,15 @@ button img{
     width: 50px;
     height: 50px;
     padding: 0px !important;
+    animation: camouflage 20s linear;
+}
+@keyframes camouflage{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0.35;
+    }
 }
 /*---------------------------------------------------------------------------------- modal modif------------------------------------------ */
 .btxclose{
@@ -251,9 +275,8 @@ button:hover span:nth-child(4){
     transition-delay: 0.75s;
 }
 .modal-title{
-    text-align: center;
-    padding-left: 35vw;
-    font-size: 22px;
+    margin:0px auto;
+    font-size: 32px;
 }
 .modal p{
     text-align: justify;
@@ -270,7 +293,8 @@ button:hover span:nth-child(4){
     padding-left: 45%;
 }
 #galerie{
-    padding: 0px 70px;
+    margin: 0px auto;
+    padding: 0px auto;
 }
 /*--------------------------------------------------------------- media querry---------------------------------- */
 @media(max-width:768px){
@@ -297,7 +321,6 @@ button:hover span:nth-child(4){
         padding: 0px;
     }
     .modal-title{
-        padding-left: 50px;
         font-size: 20px;
     }
     .modal-body p{
@@ -324,11 +347,11 @@ button:hover span:nth-child(4){
         margin: 0px;
     }
     #btnx{
-        height: 23px;
+        height: 24px;
         width: auto;
     }
     button img{
-        height: 23px;
+        height: 24px;
         width: auto;
     }
     .livraison{
@@ -340,9 +363,6 @@ button:hover span:nth-child(4){
     #pizza{
         padding-left: 80px;
     }
-    #galerie{
-        padding: 0px 25px;
-    }
     .imga{
         padding-left: 70px;
     }
@@ -351,6 +371,9 @@ button:hover span:nth-child(4){
     }
     .section{
         padding-bottom: 40px;
+    }
+    #btnx{
+        display: block;
     }
     /* -------------------------------------------------------------accordion-------------------------------- */
     .accordion-header{
@@ -368,6 +391,12 @@ button:hover span:nth-child(4){
     }
     .Centrage{
         margin: 0px;
+    }
+    .accordion-button{
+        letter-spacing: 0px;
+    }
+    .accordion-button h3{
+        font-size: 12px;
     }
     /* -------------------------------------------------------------------offcanvas----------------------------------- */
     .offcanvas-body img{

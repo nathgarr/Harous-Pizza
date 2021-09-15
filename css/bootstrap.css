@@ -2966,6 +2966,10 @@ textarea.form-control-lg {
   color: black;
   background-color: rgb(29, 99, 86);
   border-color: rgb(29, 99, 86);
+  letter-spacing: 0px;
+  text-transform: none;
+  border-radius: 2vh !important;
+  padding: 20px;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4632,7 +4636,7 @@ textarea.form-control-lg {
   flex-shrink: 0;
   width: 1.25rem;
   height: 1.25rem;
-  margin: auto;
+  /* margin: auto; */
   content: "";
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -4665,27 +4669,22 @@ textarea.form-control-lg {
   border-radius: 4vh;
 }
 .accordion-item:first-of-type {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-radius: 2vh;
 }
 .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-radius: 2vh;
 }
 .accordion-item:not(:first-of-type) {
   border-top: 0;
 }
 .accordion-item:last-of-type {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-radius: 2vh;
 }
 .accordion-item:last-of-type .accordion-button.collapsed {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-radius: 2vh;
 }
 .accordion-item:last-of-type .accordion-collapse {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-radius: 2vh;
 }
 
 .accordion-body {
@@ -5939,6 +5938,7 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  border-radius: 2vh;
 }
 .carousel-inner::after {
   display: block;
