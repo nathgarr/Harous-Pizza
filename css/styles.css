@@ -141,9 +141,13 @@ footer{
 /*---------------------------------------------------------------- accordion -------------------------------------------------*/
 .accordion-body img{
     /* padding-left: 40vw; */
-    padding-bottom: 3vh;
+    /* padding-bottom: 3vh; */
+    border-radius: 2vh;
     height: 20vh;
     width: auto;
+}
+.accordion-body h3{
+    padding-top: 3vh;
 }
 .accordion-body p{
     width: 80%;
@@ -151,9 +155,6 @@ footer{
 }
 .accordion-header{
     margin: auto;
-}
-.Centrage{
-    margin-left: 65vh;
 }
 /*--------------------------------------------------------------------------------- button remonte------------------------------------ */
 button img{
