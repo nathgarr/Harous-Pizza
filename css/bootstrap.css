@@ -4171,10 +4171,10 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
   }
-  .navbar-expand-lg .navbar-nav .nav-link {
+  /* .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2.5rem;
     padding-left: 5vh;
-  }
+  } */
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
   }

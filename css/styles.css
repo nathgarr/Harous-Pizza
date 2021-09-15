@@ -32,7 +32,11 @@ footer{
 /*-------------------------------------------------- class --------------------------------------------------*/
 .navbar{
     border-radius: 2vh;
-    margin-top: 5vh;
+    margin-top: 2.5vh;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: space-around;
 }
 .ggm{
     border-radius: 2vh;
@@ -162,8 +166,9 @@ button img{
 }
 #btnx{
     position: sticky;
+    z-index: auto;
     top: 50%;
-    left: 100%;
+    left: 0%;
     width: 50px;
     height: 50px;
     padding: 0px !important;
@@ -319,7 +324,6 @@ button:hover span:nth-child(4){
         margin: 0px;
     }
     #btnx{
-        left: 0%;
         height: 23px;
         width: auto;
     }
@@ -347,9 +351,6 @@ button:hover span:nth-child(4){
     }
     .section{
         padding-bottom: 40px;
-    }
-    .navbar-collapse {
-        justify-content: start !important;
     }
     /* -------------------------------------------------------------accordion-------------------------------- */
     .accordion-header{
